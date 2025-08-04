@@ -1,10 +1,12 @@
 PropVivo Real Estate SaaS Platform
+
 Overview
 PropVivo is a cross-platform SaaS application designed to simplify the home-buying journey for buyers while streamlining client and property management for realtors. Developed as part of the PropVivo UI/UX Designer Assessment, this single-page React application emphasizes user-friendly design and functional transparency.
 
 The platform offers distinct portals for home buyers and realtors, ensuring a seamless and efficient experience tailored to each user's needs.
 
 Core Features
+
 🏠 Home Buyer Portal
 Property Search & Filter: Easily browse properties by keyword and fine-tune results using price range filters.
 
