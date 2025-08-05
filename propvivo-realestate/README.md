@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+PropVivo Real Estate SaaS Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview
+PropVivo is a cross-platform SaaS application designed to simplify the home-buying journey for buyers while streamlining client and property management for realtors. Developed as part of the PropVivo UI/UX Designer Assessment, this single-page React application emphasizes user-friendly design and functional transparency.
 
-## Available Scripts
+The platform offers distinct portals for home buyers and realtors, ensuring a seamless and efficient experience tailored to each user's needs.
 
-In the project directory, you can run:
+Core Features
 
-### `npm start`
+🏠 Home Buyer Portal
+Property Search & Filter: Easily browse properties by keyword and fine-tune results using price range filters.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Mortgage Calculator: A built-in tool for estimating monthly mortgage payments based on loan details.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Saved Listings: Bookmark favorite properties for quick comparisons and revisit them anytime.
 
-### `npm test`
+Schedule Visits: A form-based interface to request property tours, generating leads for realtors.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Responsive Design: Optimized for both desktop and mobile devices ensuring smooth navigation on all screen sizes.
 
-### `npm run build`
+🧑‍💼 Realtor Dashboard
+Lead Tracking: Monitor new inquiries and track interactions with potential buyers.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Analytics Dashboard: Visualize client engagement and sales trends through intuitive charts.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Listing Management: Add and manage property listings through a streamlined interface.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Communication Interface (Placeholder): A section reserved for future integration of direct messaging with buyers.
 
-### `npm run eject`
+Tech Stack
+React — Frontend framework for building interactive UI.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Tailwind CSS — Utility-first CSS framework for responsive and clean design.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Recharts — Data visualization library used in the analytics dashboard.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Lucide React — Icon library for modern and lightweight icons.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Getting Started
+To run the project locally, follow these steps:
 
-## Learn More
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/propvivo-app.git
+cd propvivo-app
+2. Install Dependencies
+bash
+Copy
+Edit
+npm install
+3. Start the Application
+bash
+Copy
+Edit
+npm start
+Open http://localhost:3000 in your browser to see the application in action.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Roadmap & Future Enhancements
+While the current version demonstrates the core functionalities, several advanced features are envisioned for future development:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+AI-based Property Recommendations: Suggest properties tailored to the buyer’s preferences and activity history.
 
-### Code Splitting
+Integrated Chatbot: Provide real-time assistance for common queries during the home-buying process.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Third-Party Integrations: Collaborate with external mortgage and legal advisory services.
 
-### Analyzing the Bundle Size
+Real-time Notifications: Notify users about property updates, visit confirmations, and important alerts.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Backend & Database Integration: Transition from a front-end demo to a fully functional application with persistent data storage.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
